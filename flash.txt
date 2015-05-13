@@ -1,0 +1,12 @@
+flash memory storage:
+
+Information Segment D
+	______________________________________________________________________________
+	|  isCalibration   |  lowCalib  |  medCalib	 |	highCalib  |
+	|				   |			|			 |			   |
+	|				   |			|			 |			   |	............
+	| 2 byte - 0 or 1  |  2 bytes	|   2 bytes	 |	 2 bytes   |	
+	|	  (int)	   	   |   (int)	|	 (int)	 |	  (int)	   |
+	------------------------------------------------------------------------------
+
+0x01000			   0x01002		0x01004			0x01008		  0x0100A
